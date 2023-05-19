@@ -1,0 +1,48 @@
+li{list-style-type:none;}
+a{text-decoration:none;}
+
+
+#header{
+
+background-color:#444;
+color:white;
+text-align:center;
+line-height: 
+
+}
+
+.sea{
+float:right;
+}
+
+
+
+#menu ul li{
+
+margin:auto;
+width:960px;
+display:inline-block;
+width:200px;
+height:50px;
+line-height:50px;
+text-align:center;
+}
+
+
+
+#menu ul li:hover{
+display:inline-block;
+border-bottom: 3px solid red;
+width:200px;
+height:50px;
+line-height:50px;
+text-align:center;
+}
+
+#menu ul li a:hover{
+
+display:block;
+background-color:blue;
+color:white;
+
+}
