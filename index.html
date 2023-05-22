@@ -1,7 +1,202 @@
-<?php
+
+<html>
+
+ <head>
+   <link rel="stylesheet" href="./">
+ </head>
+ <body>
+
+<div id="header">
+Nicolas
+</div>
 
 
-echo "ok";
 
-echo "Ok2";
+<div id="menu">
+ 
+ <ul>
+  <li>Annuaire</li>
+    <li>Documents</li>
+    <li>Gestion</li>
+ <li>Projets</li>
+ </ul>
+</div>
+  
+  <style>
+
+
+body{
+
+margin:auto;
+}
+
+
+
+
+#header{
+background-color:black;
+ line-height:50px;
+height:50px;
+color:white;
+text-align:center;
+}
+	
+
+
+   #menu{
+margin-top:-16px;
+background-color:black;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+box-shadow:5px 5px 5px;
+   }
+   
+   
+    #menu li{
+   
+    font-weight:bold;
+     display:inline-block;
+	width:125px;
+	color:white;
+opacity:0.6;
+ 
+   }
+
+   #menu li:hover{
+   
+
+color:white;
+     
+     display:inline-block;
+	width:125px;
+cursor:pointer;
+opacity:1;
+
+    
+   }
+
+
+#content{
+margin:auto;
+margin-top: 50px;
+width:960px;
+min-height:1500px;
+}
+
+
+footer{
+
+height:100px;
+background-color:black;
+ text-align:center;
+color:white;
+
+}
+
+  
+.case{
+	
+display:block;
+border:1px solid black;
+height:175px;
+width:300px;
+float:left;
+}
+
+
+.img_src{
+	
+background-color:yellow;
+
+}
+   
+   
+   
+  </style>
+
+
+<div id="content">
+
+
+<div class="annuaire_Part">
+<p>Annuaire</p>
+<input type="text" name="nomAnnuaire" placeholder="Nom">
+<input type="text" name="prenomAnnuaire" placeholder="Prenom">
+</div>
+
+
+
+<div class="Document_Part">
+<p>Document</p>
+<input type="text" name="titreDocument" placeholder="Titre">
+<select>
+<option id="catDoc">catDoc</option>
+</select>
+<input type"date" class="Before">
+<input type"date" class="After">
+</div>
+
+
+<div class="Gestion_Part">
+<p>Gestion</p>
+<input type="text" name="titreDocument" placeholder="Titre">
+<select>
+<option id="catDoc">Console</option>
+</select>
+</div>
+
+
+<div class="_Part">
+<p>Projets</p>
+<input type="text" name="titreDocument" placeholder="Titre">
+<select>
+<option id="catDoc">Langage</option>
+</select>
+</div>
+
+
+<div class="_Part">
+<p>Gestion</p>
+<input type="text" name="titreDocument" placeholder="Titre">
+<select>
+<option id="catDoc">Console</option>
+</select>
+</div>
+
+
+
+<div class="case">
+<img class="img_src">
+</div>
+
+
+<div class="case">
+<img class="img_src">
+</div>
+
+
+
+<div class="case">
+<img class="img_src">
+</div>
+
+
+</div>
+
+
+
+
+
+
+<footer>
+
+Nicolas
+
+</footer>
+
+</html>
+
+
+
  
