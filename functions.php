@@ -26,10 +26,34 @@ $sql = "Show columns from $table";
   return $res1;
 }
 
-static function statGroup(){
-    $sql = 
-  
-  
+static function statGroup($table,$groupby){
+   $conn = new Sql_Core_Laconis(); 
+   $sql = "select * from $table group by $groupby";
+  $res1 = $conn->sql_select($sql);
+  return $res1;
 }
+
+static function delete_sql_row($table){
+     $conn = new Sql_Core_Laconis(); 
+   $sql = "select * from $table group by $groupby";
+    $res1 = $conn->sql_select($sql);
+  return $res1;
+}
+
+
+static function update_sql_row($table){
+   $conn = new Sql_Core_Laconis(); 
+   $sql = "select * from $table group by $groupby";
+    $res1 = $conn->sql_select($sql);
+  return $res1;
+}
+
+
+
+
+
+
+
+
 
 
